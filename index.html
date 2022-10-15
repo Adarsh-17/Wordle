@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="header">
+        <h1>WORDLE!</h1>
+    </div>
+    <div id="gameBoard">
+         <div class="row">
+            <div class="cell" id="1"></div>
+            <div class="cell" id="2"></div>
+            <div class="cell" id="3"></div>
+            <div class="cell" id="4"></div>
+            <div class="cell" id="5"></div>
+         </div>
+         <div class="row">
+            <div class="cell" id="6"></div>
+            <div class="cell" id="7"></div>
+            <div class="cell" id="8"></div>
+            <div class="cell" id="9"></div>
+            <div class="cell" id="10"></div>
+         </div>
+         <div class="row">
+            <div class="cell" id="11"></div>
+            <div class="cell" id="12"></div>
+            <div class="cell" id="13"></div>
+            <div class="cell" id="14"></div>
+            <div class="cell" id="15"></div>
+         </div>
+         <div class="row">
+            <div class="cell" id="16"></div>
+            <div class="cell" id="17"></div>
+            <div class="cell" id="18"></div>
+            <div class="cell" id="19"></div>
+            <div class="cell" id="20"></div>
+         </div>
+         <div class="row">
+            <div class="cell" id="21"></div>
+            <div class="cell" id="22"></div>
+            <div class="cell" id="23"></div>
+            <div class="cell" id="24"></div>
+            <div class="cell" id="25"></div>
+         </div>
+         <div class="row">
+            <div class="cell" id="26"></div>
+            <div class="cell" id="27"></div>
+            <div class="cell" id="28"></div>
+            <div class="cell" id="29"></div>
+            <div class="cell" id="30"></div>
+        </div>
+    </div>
+    <div id="keyboard-container">
+        <div class="keyboard-row">
+          <button id="q" data-key="Q">q</button>
+          <button id="w" data-key="w">w</button>
+          <button id="e" data-key="E">e</button>
+          <button id="r" data-key="R">r</button>
+          <button id="t" data-key="T">t</button>
+          <button id="y" data-key="Y">y</button>
+          <button id="u" data-key="U">u</button>
+          <button id="i" data-key="I">i</button>
+          <button id="o" data-key="O">o</button>
+          <button id="p" data-key="P">p</button>
+        </div>
+        <div class="keyboard-row">
+          <button id="a" data-key="A">a</button>
+          <button id="s" data-key="S">s</button>
+          <button id="d" data-key="D">d</button>
+          <button id="f" data-key="F">f</button>
+          <button id="g" data-key="G">g</button>
+          <button id="h" data-key="H">h</button>
+          <button id="j" data-key="J">j</button>
+          <button id="k" data-key="K">k</button>
+          <button id="l" data-key="L">l</button>
+        </div>
+        <div class="keyboard-row">
+          <button data-key="enter" class="wide-button">Enter</button>
+          <button id="z" data-key="Z">z</button>
+          <button id="x" data-key="X">x</button>
+          <button id="c" data-key="C">c</button>
+          <button id="v" data-key="V">v</button>
+          <button id="b" data-key="B">b</button>
+          <button id="n" data-key="N">n</button>
+          <button id="m" data-key="M">m</button>
+          <button data-key="del" class="wide-button">Del</button>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+      <script src="app.js"></script>
+</body>
+</html>
